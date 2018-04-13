@@ -1,0 +1,111 @@
+/*
+ * Start Pagina CMS
+ * Benny Fritzen
+ * www.ii3.nl
+ * benfritzen@gmail.com
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+html {
+
+  position: relative;
+  min-height: 100%;
+	
+}
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+footer {
+  padding: 20px 0;
+}
+
+/*
+ * NavBar
+ * --------------------------------------------------
+ */
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+/*
+ * Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+.row [class*="col-"] {
+    margin-bottom: 15px;
+}
+
+.offset {margin-bottom: 60px;}
+
+div.column_1 div.list-group span.list-group-item {background-color:#337ab7!important;border-color:#337ab7!important;}
+div.column_2 div.list-group span.list-group-item {background-color:cadetblue!important;border-color:cadetblue!important;}
+div.column_3 div.list-group span.list-group-item {background-color:darkorange!important;border-color:darkorange!important;}
+div.column_4 div.list-group span.list-group-item {background-color:seagreen!important;border-color:seagreen!important;}
+
+.list-group {  margin-bottom: 15px; }
+
+.break-word{ word-wrap: break-word; }
+
+@media only screen and (max-width : 480px){
+
+.column-block { width:100%; }
+	
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+

@@ -1,0 +1,1 @@
+<li class="list-group-item"><a href='<?php echo $url; ?>' target='_blank' <?php echo $nofollow; ?> title='<?php echo $description; ?>'><?php echo clean_output($anchor); ?></a></li>

@@ -1,0 +1,99 @@
+body {
+  background-image: url(../img/bg.png);
+}
+
+footer div div {
+  padding-top: 5px;
+}
+
+ul li a {
+  color: #212529 !important;
+  cursor: pointer !important;
+}
+
+div span a {
+  color: #ffff;
+  font-size: 0.7rem;
+}
+
+div a:hover {
+  color: #dad7d7;
+}
+
+a.nav-link {
+  color: #ffff !important;
+}
+
+span.right {
+  font-size: 0.7rem;
+}
+
+button.navbar-toggler {
+  border: none;
+}
+
+ul li a.nav-link {
+  color: #ffff;
+}
+
+div.footer-copyright div p {
+  color:
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+  /* margin: 0 !important; */
+  background-color: #009688 !important;
+}
+
+.uitgelicht {
+  text-align: center;
+}
+
+.card {
+  margin: 2em;
+}
+
+.faq, .over,.contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page-footer {
+  background-color: #009688;
+  color: #ffff;
+  /* position: absolute;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden; */
+}
+
+.footer-copyright {
+  background-color: #036d63;
+  text-align: center;
+}
+
+.jumbotron.jumbotron-fluid {
+  background-image: url(../img/veilinghamer1.png);
+  background-size: cover;
+  image-orientation: center;
+  color: white;
+}
+
+
+.custom-file-control, .form-control, .is-focused.custom-file-control, .is-focused.form-control {
+  background-image: linear-gradient(0deg, #ffffff 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, rgba(0, 0, 0, .26) 1px, transparent 0)!important;
+}
+
+.right {
+  float: right;
+  color: white;
+}
+
+.left {
+  float: left;
+  font-size: 0.7rem;
+}
+
+.jumbotron {
+  height: 25rem;
+}

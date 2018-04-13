@@ -1,0 +1,173 @@
+body {
+  background-color: #c4c4c4;
+}
+
+ul li a {
+  color: #212529 !important;
+  cursor: pointer !important;
+}
+
+footer div div {
+  padding-top: 5px;
+}
+
+div span a {
+  color: #ffff;
+  font-size: 0.7rem;
+}
+
+div a:hover {
+  color: #dad7d7;
+}
+
+a span {
+  color: #ffff !important;
+  font-size: 1.1rem !important;
+  border-bottom: 2px solid transparent;
+  display: block;
+  transition: 0.3s ease;
+}
+
+a span:hover {
+  border-bottom: 2px solid #fff;
+}
+
+span.right {
+  font-size: 0.7rem;
+}
+
+button.navbar-toggler {
+  border: none;
+}
+
+ul li a.nav-link {
+  color: #ffff;
+}
+
+.form-control.mr-sm-2 {
+  padding: 8.514px !important;
+}
+
+.custom-file-control, .form-control {
+  color: #ffff !important;
+}
+
+.custom-file-control::placeholder, .form-control::placeholder {
+  color: #ffff !important;
+  opacity: 1
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+  background-color: #0090e3 !important;
+}
+
+li.list-group-item.active {
+  background-color: #0090e3 !important;
+}
+
+li.list-group-item {
+  background-color: rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease-in-out;
+}
+
+li.list-group-item:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* .uitgelicht {
+  text-align: center;
+} */
+
+h2.header-text {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1rem;
+  margin: 75px 0 40px;
+}
+
+h2 span {
+  background: #fafafa;
+  padding: 0 10px;
+}
+
+.card {
+  margin: 2em;
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.faq, .over, .contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar-toggler{
+  padding: 0px!important;
+}
+
+/* .main {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 50px;
+} */
+
+.label.bmd-label-floating {
+  color: black !important;
+}
+
+.page-footer {
+  background-color: #0090e3;
+  color: #ffff;
+}
+
+.footer-copyright {
+  background-color: #0379bd;
+  text-align: center;
+}
+
+.carousel.slide, .carousel-inner, .carousel-item.active {
+  max-height: 25rem;
+  margin-bottom: 25px;
+}
+
+.custom-file-control, .form-control, .is-focused.custom-file-control, .is-focused.form-control {
+  background-image: linear-gradient(0deg, #ffffff 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, rgba(0, 0, 0, .26) 1px, transparent 0) !important;
+}
+
+.right {
+  float: right;
+  color: white;
+}
+
+.btn.btn-raised{
+  background-color: #0090e3;
+  color: #ffff;
+}
+
+.btn.btn-raised:hover{
+  background-color: #0379bd!important;
+  color: #ffff;
+}
+
+.bmd-label-floating, .bmd-label-placeholder {
+  color: #000000 !important;
+}
+
+.custom-file-control, .form-control, input::placeholder, label {
+  color: #000000 !important;
+}
+
+.left {
+  float: left;
+  font-size: 0.7rem;
+}
+
+.jumbotron {
+  height: 25rem;
+}
